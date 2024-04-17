@@ -38,7 +38,7 @@ jobs:
         with:
             push: true
             tags: mohamedamineblibech/backend_crud:latest
-            context: ./django/khedma
+            context: ./
           
 
       - name: Build and push
@@ -46,7 +46,7 @@ jobs:
         with:
             push: true
             tags: mohamedamineblibech/frontend_crud:latest
-            context: ./reactjs/khedma
+            context: ./client
 
   continuos_deployment:
     needs: continuous_integrate
