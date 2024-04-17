@@ -13,7 +13,7 @@ services:
       - crud_network
     # volumes:
     #   - digitalocean_media-volume:/django/khedma/media
-##########""
+##########""##
   frontend:
     image: mohamedamineblibech/frontend_crud
     volumes:
